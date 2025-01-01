@@ -128,14 +128,18 @@ export default class NoteApp extends Component {
                       >
                         {this.state.notes.map(note=>(
                         <Note  {...note}/>
+                        
 
                         ))}
+                        
                       </div>
+                      
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            
           </section>
         </div>
       </>

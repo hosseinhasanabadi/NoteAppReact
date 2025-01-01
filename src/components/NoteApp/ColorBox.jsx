@@ -10,8 +10,9 @@ export default class ColorBox extends Component {
 
         return (
             <div className='color-box' style={{backgroundColor:color}} onClick={this.inputColorHandler.bind(this,color)}>
-                
+          
             </div>
+            
         )
     }
 }
